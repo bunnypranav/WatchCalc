@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchCalc</string>
+
+    <!-- Full-screen widget with all three shortcuts -->
+    <string name="tile_label">WatchCalc</string>
+    <string name="tile_description">Jump straight to the numbers, log or trig keypad.</string>
+
+    <!-- Half-height widget with all three shortcuts -->
+    <string name="tile_compact_label">WatchCalc shortcuts</string>
+    <string name="tile_compact_description">All three keypads in a half-height widget.</string>
+
+    <!-- Half-height widgets, addable one at a time and stackable in pairs -->
+    <string name="tile_numbers_label">WatchCalc 123</string>
+    <string name="tile_numbers_description">Open the numbers keypad.</string>
+    <string name="tile_log_label">WatchCalc log</string>
+    <string name="tile_log_description">Open the roots and logarithms keypad.</string>
+    <string name="tile_trig_label">WatchCalc trig</string>
+    <string name="tile_trig_description">Open the trigonometry keypad.</string>
+</resources>

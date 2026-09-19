@@ -1,0 +1,42 @@
+A scientific calculator designed for the shape of a watch, rather than a phone calculator shrunk down until it stops working.
+
+Every key row is only as wide as your round screen actually is at that height, so all eighteen keys on a page stay reachable and none of them hide under the bezel. Five keypads, one swipe apart.
+
+WHAT'S ON IT
+
+• Numbers, the four operators, and one bracket key that knows whether to open or close
+• √ ∛ x² x³ xʸ, ln, log, log₂, 10ˣ, eˣ, x⁻¹, |x|, log to any base, any root
+• sin cos tan, sec cosec cot, all six inverses, hyperbolics, degrees ↔ radians
+• nCr, nPr, factorial, percent, mod, gcd, lcm
+• A prime factoriser that also gives the divisor count, divisor sum and Euler's totient
+• 30 CODATA physics and chemistry constants you can drop straight into an expression
+
+BUILT FOR REAL WORKING
+
+Results show their exact form underneath the decimal whenever there is one. cos(30) gives 0.8660254038 and √3/2. π/4 stays π/4. 0.375 shows as 3/8. That is the difference between a calculator you can check an answer with and one you have to trust.
+
+Precedence follows a Casio fx-991 rather than a programming language, so 1/2π reads as 1/(2π) — the way you already type it. Trigonometry snaps at quadrant boundaries too: sin 180 is 0, not 1.22×10⁻¹⁶, and tan 90 is an error rather than a huge number.
+
+You never have to type the closing bracket. Type sin(30 and press = and it evaluates sin(30).
+
+Two-argument functions sit between their operands, the way the nCr key works on a real calculator: 10 nCr 3, or 3 ʸ√ 27.
+
+Long-press any key for the small grey label in its corner. Every trigonometry key has its inverse there, which is what leaves room for sec, cosec and cot on the same page.
+
+Backspace deletes a whole token, so one press removes all of "sin(" rather than one character at a time.
+
+If you are working through physics or maths problems — JEE preparation, a lab, an undergraduate course — the constants list and the exact forms are the parts you will use most.
+
+WIDGETS, TOO
+
+Swipe left from the watch face for shortcuts that open the calculator directly on the numbers, log or trigonometry keypad, instead of wherever you left it.
+
+There is a half-height widget with all three buttons, a half-height widget for each keypad on its own, and a full-screen one. On a Galaxy Watch the half-height widgets stack two to a screen, so the calculator can share a screen with something else instead of taking one to itself.
+
+NO INTERNET, NO ACCOUNT, NO ADS
+
+WatchCalc holds no internet permission at all. It cannot phone home because it cannot reach the network. There is no sign-in, no analytics, no advertising and no tracking of any kind.
+
+Your angle mode, memory, last answer and recent history are kept on the watch so the calculator picks up where you left it, and they are deleted when you uninstall.
+
+Runs standalone on the watch. No companion phone app needed.

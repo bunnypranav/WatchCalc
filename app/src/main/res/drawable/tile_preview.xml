@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shown in the watch's "add a tile" picker: three shortcut circles. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp" android:height="120dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <path android:fillColor="#000000" android:pathData="M0,0h120v120h-120z" />
+    <path android:fillColor="#141B26" android:pathData="M22,45 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 z" />
+    <path android:fillColor="#141B26" android:pathData="M60,45 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 z" />
+    <path android:fillColor="#141B26" android:pathData="M98,45 m-16,0 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 z" />
+    <path android:fillColor="#60A5FA" android:pathData="M14,42h16v3h-16z M14,48h16v3h-16z" />
+    <path android:fillColor="#60A5FA" android:pathData="M52,42h16v3h-16z M52,48h10v3h-10z" />
+    <path android:fillColor="#60A5FA" android:pathData="M90,42h16v3h-16z M90,48h13v3h-13z" />
+    <path android:fillColor="#7C8697" android:pathData="M38,78h44v5h-44z" />
+</vector>

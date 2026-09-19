@@ -1,0 +1,1 @@
+A full scientific calculator shaped for round watch screens, working offline
