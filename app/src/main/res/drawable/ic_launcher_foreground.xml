@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- a pi glyph, kept inside the 66dp adaptive-icon safe zone -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#60A5FA"
+        android:pathData="M31,37 h46 a3,3 0 0,1 0,9 h-46 a3,3 0 0,1 0,-9 z" />
+    <path android:fillColor="#60A5FA"
+        android:pathData="M38,46 h9 v27 a4.5,4.5 0 0,1 -9,0 z" />
+    <path android:fillColor="#60A5FA"
+        android:pathData="M61,46 h9 v27 a4.5,4.5 0 0,1 -9,0 z" />
+</vector>

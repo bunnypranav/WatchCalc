@@ -1,0 +1,5 @@
+First release.
+
+Five keypads sized for a round display, so no key hides under the bezel. Exact surd, fraction and π forms under every result. 30 physics and chemistry constants. A prime factoriser with divisor count, divisor sum and totient. Widgets with shortcuts straight into the numbers, log and trigonometry keypads, in half-height and full-screen sizes.
+
+Runs entirely on the watch, with no network access of any kind.

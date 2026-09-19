@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.type.watch"
+        android:required="true" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <!-- runs entirely on the watch, no phone companion needed -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Swipe-left carousel tile: three shortcuts into the keypads. -->
+        <service
+            android:name=".tile.CalcTileService"
+            android:description="@string/tile_description"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:label="@string/tile_label"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="androidx.wear.tiles.PREVIEW"
+                android:resource="@drawable/tile_preview" />
+
+            <!-- One UI reads this to size the widget. 2x2 is a whole screen;
+                 2x1 is half, and stacks two per screen. It is how the stock
+                 Reminder and Calendar widgets declare their variants. -->
+            <meta-data
+                android:name="com.samsung.android.wearable.tiles.LAYOUT_TYPE"
+                android:value="2x2" />
+        </service>
+        <!-- Half-height widget carrying all three shortcuts at once. -->
+        <service
+            android:name=".tile.CompactTileService"
+            android:description="@string/tile_compact_description"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:label="@string/tile_compact_label"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="androidx.wear.tiles.PREVIEW"
+                android:resource="@drawable/tile_preview_compact" />
+            <meta-data
+                android:name="com.samsung.android.wearable.tiles.LAYOUT_TYPE"
+                android:value="2x1" />
+        </service>
+
+        <!-- Half-height widgets: each can be added on its own, and One UI
+             stacks two of them on a single widget screen. -->
+        <service
+            android:name=".tile.NumbersTileService"
+            android:description="@string/tile_numbers_description"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:label="@string/tile_numbers_label"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="androidx.wear.tiles.PREVIEW"
+                android:resource="@drawable/tile_preview_numbers" />
+            <meta-data
+                android:name="com.samsung.android.wearable.tiles.LAYOUT_TYPE"
+                android:value="2x1" />
+        </service>
+
+        <service
+            android:name=".tile.LogTileService"
+            android:description="@string/tile_log_description"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:label="@string/tile_log_label"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="androidx.wear.tiles.PREVIEW"
+                android:resource="@drawable/tile_preview_log" />
+            <meta-data
+                android:name="com.samsung.android.wearable.tiles.LAYOUT_TYPE"
+                android:value="2x1" />
+        </service>
+
+        <service
+            android:name=".tile.TrigTileService"
+            android:description="@string/tile_trig_description"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:label="@string/tile_trig_label"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="androidx.wear.tiles.PREVIEW"
+                android:resource="@drawable/tile_preview_trig" />
+            <meta-data
+                android:name="com.samsung.android.wearable.tiles.LAYOUT_TYPE"
+                android:value="2x1" />
+        </service>
+    </application>
+</manifest>

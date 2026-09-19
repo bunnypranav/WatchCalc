@@ -1,0 +1,6 @@
+# Keep line endings sane across platforms; gradlew must stay LF to run on
+# Linux/macOS, and the golden vectors are compared byte-for-byte.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.tsv text eol=lf

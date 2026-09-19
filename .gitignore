@@ -1,0 +1,24 @@
+local.properties
+.gradle/
+build/
+app/build/
+.idea/
+*.iml
+.kotlin/
+
+# Signing material. The upload key is the one thing in this project that
+# cannot be regenerated from source, and publishing it would let anyone
+# sign something that looks like this app.
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pepk
+store/
+
+# Gradle writes this when you run updateDaemonJvm. It pins the daemon to a
+# specific JDK with foojay download URLs, which breaks on build servers that
+# set org.gradle.java.installations.auto-download=false — F-Droid's does.
+gradle/gradle-daemon-jvm.properties
+
+
