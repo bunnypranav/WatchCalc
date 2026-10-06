@@ -8,9 +8,9 @@
 
 [![Get it on Google Play](playbadge.svg)](https://play.google.com/store/apps/details?id=com.bunnypranav.watchcalc)
 
-<img src="fastlane/metadata/android/en-US/images/wearScreenshots/1.png" width="30%" alt="cos(30) showing 0.8660254038 and √3/2">
-<img src="fastlane/metadata/android/en-US/images/wearScreenshots/2.png" width="30%" alt="2520 factorised as 2³×3²×5×7">
-<img src="fastlane/metadata/android/en-US/images/wearScreenshots/6.png" width="30%" alt="Home screen widgets">
+<img src="fastlane/metadata/android/en-US/images/wearScreenshots/1.png" width="38%" alt="√2 + √8 showing 4.242640687 with the exact form 3√2 beneath it">
+<img src="fastlane/metadata/android/en-US/images/wearScreenshots/4.png" width="38%" alt="cos(30) showing 0.8660254038 with the exact form √3/2 beneath it">
+<img src="fastlane/metadata/android/en-US/images/wearScreenshots/2.png" width="38%" alt="2520 factorised as 2³×3²×5×7">
 
 </div>
 
